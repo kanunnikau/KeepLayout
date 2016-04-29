@@ -100,8 +100,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2BB3F0571CD34DC800E0A3C1 /* KeepLayout-ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "KeepLayout-ObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BB3F0581CD34DC800E0A3C1 /* KeepLayout copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "KeepLayout copy-Info.plist"; path = "/Users/EL_GhouL/work/samples/KeepLayout-Fork/KeepLayout copy-Info.plist"; sourceTree = "<absolute>"; };
+		2BB3F0571CD34DC800E0A3C1 /* KeepLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeepLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B00E1FB193F9BD900535B19 /* UIViewController+KeepLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KeepLayout.h"; sourceTree = "<group>"; };
 		5B00E1FC193F9BD900535B19 /* UIViewController+KeepLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KeepLayout.m"; sourceTree = "<group>"; };
 		5B099AC418358167004A8257 /* Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~ipad.png"; sourceTree = "<group>"; };
@@ -223,13 +222,12 @@
 		5B3C506E16B5304600D00BF3 = {
 			isa = PBXGroup;
 			children = (
-				5B92B7581CCCD65C002C1C3B /* Info.plist */,
-				5B3C50A516B530BE00D00BF3 /* Sources */,
 				5B3C508316B5304600D00BF3 /* Example */,
 				5B2A086919538AB20059E0BE /* Example AppKit */,
 				5B3C507C16B5304600D00BF3 /* Frameworks */,
+				5B92B7581CCCD65C002C1C3B /* Info.plist */,
 				5B3C507A16B5304600D00BF3 /* Products */,
-				2BB3F0581CD34DC800E0A3C1 /* KeepLayout copy-Info.plist */,
+				5B3C50A516B530BE00D00BF3 /* Sources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -240,7 +238,7 @@
 				5B2A083619538A550059E0BE /* Keep Layout.app */,
 				5B0AF5FF195392A30041E966 /* libKeepLayout-AppKit.a */,
 				5B92B7501CCCD5B0002C1C3B /* KeepLayout-Swift.framework */,
-				2BB3F0571CD34DC800E0A3C1 /* KeepLayout-ObjC.framework */,
+				2BB3F0571CD34DC800E0A3C1 /* KeepLayout.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -372,7 +370,7 @@
 			);
 			name = "KeepLayout-ObjC";
 			productName = KeepLayout;
-			productReference = 2BB3F0571CD34DC800E0A3C1 /* KeepLayout-ObjC.framework */;
+			productReference = 2BB3F0571CD34DC800E0A3C1 /* KeepLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5B0AF5FE195392A30041E966 /* KeepLayout for AppKit */ = {
@@ -616,11 +614,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "KeepLayout copy-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tricertops.KeepLayout;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KeepLayout;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -638,11 +636,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "KeepLayout copy-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tricertops.KeepLayout;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KeepLayout;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
