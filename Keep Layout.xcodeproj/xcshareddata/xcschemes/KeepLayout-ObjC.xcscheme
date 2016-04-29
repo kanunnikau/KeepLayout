@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5B92B74F1CCCD5B0002C1C3B"
-               BuildableName = "KeepLayout.framework"
-               BlueprintName = "KeepLayout"
+               BlueprintIdentifier = "2BB3F03F1CD34DC800E0A3C1"
+               BuildableName = "KeepLayout-ObjC.framework"
+               BlueprintName = "KeepLayout-ObjC"
                ReferencedContainer = "container:Keep Layout.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5B92B74F1CCCD5B0002C1C3B"
-            BuildableName = "KeepLayout.framework"
-            BlueprintName = "KeepLayout"
+            BlueprintIdentifier = "2BB3F03F1CD34DC800E0A3C1"
+            BuildableName = "KeepLayout-ObjC.framework"
+            BlueprintName = "KeepLayout-ObjC"
             ReferencedContainer = "container:Keep Layout.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5B92B74F1CCCD5B0002C1C3B"
-            BuildableName = "KeepLayout.framework"
-            BlueprintName = "KeepLayout"
+            BlueprintIdentifier = "2BB3F03F1CD34DC800E0A3C1"
+            BuildableName = "KeepLayout-ObjC.framework"
+            BlueprintName = "KeepLayout-ObjC"
             ReferencedContainer = "container:Keep Layout.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
